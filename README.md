@@ -30,9 +30,7 @@ After building node_parser, you can explore its exports at the Node REPL:
 
 ```sh
 $ npm install
-$ node
-> require('.').hello()
-"hello node"
+$ node index.js
 ```
 
 ## Available Scripts
@@ -75,6 +73,7 @@ node_parser/
 ├── README.md
 ├── index.node
 ├── package.json
+├── index.js
 ├── src/
 |   └── lib.rs
 └── target/
